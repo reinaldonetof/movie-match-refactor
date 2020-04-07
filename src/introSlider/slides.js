@@ -36,7 +36,7 @@ const slides = [
     key: "video-confirmado",
     title: "Após confirmar o vídeo",
     imagem: screen5,
-    text: "Na tela inicial, a aba lateral sinaliza como concluída a busca de vídeo, agora precisa adicioanr a legenda do vídeo",
+    text: "Na tela inicial, a aba lateral sinaliza como concluída a busca de vídeo, agora precisa adicionar a legenda do vídeo",
     colors:["#A3A1FF", "#3A3897"],
   },
   {
