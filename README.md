@@ -6,7 +6,12 @@ App that can help you to make a subtitle for your videos.
 
 If you want to try at your Android's Mobile, here is the apk:
 
-[Apk Movie Match](https://github.com/reinaldonetof/movie-match-react-native/blob/master/MovieMatch.apk)
+[Apk Movie Match](https://github.com/reinaldonetof/movie-match-refactor/blob/master/utils/apk/MovieMatch-release.apk)
+
+[Video Tutorial Movie Match in Youtube](https://www.youtube.com/watch?v=t48TdyDs92Y)
+
+![Gif Tutorial](https://github.com/reinaldonetof/movie-match-refactor/blob/master/utils/gifs/20200407_172157.gif)
+
 
 
 If catch problem -> invalid regular expression:
