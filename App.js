@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { createAppContainer, createStackNavigator } from 'react-navigation';
 
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';

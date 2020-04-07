@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { TouchableOpacity } from 'react-native';
 import { createAppContainer, createStackNavigator } from 'react-navigation';
-import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import IntroSlider from './src/introSlider/IntroSlider';
 import Home from './src/screens/Home';
@@ -52,16 +50,17 @@ const AppNavigator = createAppContainer(createStackNavigator({
   optionHome:{
     screen:optionHome,
     navigationOptions: {
-      title: 'Menu Opções',
+    header: null
     }
   }
-}, {
+},
+ {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      headerStyle: {
-        backgroundColor: '#101D29',
-      },
-      headerTintColor: '#DDD'
+    headerStyle: {
+      backgroundColor: '#101D29',
+    },
+    headerTintColor: '#DDD'
     }
   }
 ))
