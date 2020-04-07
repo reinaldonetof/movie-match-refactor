@@ -26,7 +26,7 @@ export default class IntroSlider extends Component {
   );
 
   initialScreen = (item) => (
-    <View style={styles.containLogo}>
+    <View>
       <Image style={styles.image} source={item.imagem} />
       <Image style={styles.image2} source={item.imagem2} />
     </View>
@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
   },
   mainContent: {
     alignItems: "center",
+    justifyContent: "center",
   },
   containerElements: {
     alignItems: "center",
@@ -125,14 +126,16 @@ const styles = StyleSheet.create({
     height: 50,
   },
   image2: {
-    resizeMode: "contain",
+    resizeMode: "center",
     height: 200,
   },
   text: {
     color: "rgba(255, 255, 255, 0.8)",
     backgroundColor: "transparent",
     textAlign: "center",
-    fontSize: 18,
+    paddingHorizontal: 20,
+    fontSize: 22,
+
   },
   title: {
     fontSize: 26,
@@ -173,10 +176,4 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
     height: 300,
   },
-  containLogo: {
-    alignItems: "center",
-    flex:1,
-    justifyContent: 'center',
-    marginTop: -50
-  }
 });
